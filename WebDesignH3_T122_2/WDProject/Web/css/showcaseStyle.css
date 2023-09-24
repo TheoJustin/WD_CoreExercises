@@ -1,0 +1,114 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #15191C;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* navbar */
+.menuTitle{
+    font-size: 5vh;
+    font-family: 'Orbitron', sans-serif;
+    color: #ffaf46;
+    margin-right: 50vh;
+}
+
+.menuItem{
+    font-size: 3vh;
+    padding-right: 3vh;
+    padding-left: 2vh;
+    color: #ffaf46;
+    font-family: 'Orbitron', sans-serif;
+    text-decoration: 0;
+}
+
+.menuItem:hover{
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    text-decoration-thickness: 0.1em;
+}
+
+.navBar{
+    display: flex;
+    padding: 4vh;
+    background-color: black;
+    /* position: fixed; */
+    z-index: 1;
+}
+
+
+.backContainer{
+    background-image: url("../../Assets/world.3e44e2ef.jpeg");
+    position:absolute;
+    overflow:hidden;
+    width: 100%;
+    height: 80vh;
+    z-index: -100;
+    opacity: 0.8;
+}
+
+
+.flexCards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding: 2vw;
+}
+
+.flexCards img{
+    z-index: 10;
+    padding: 2vw;
+    padding-bottom: 1vw;
+    height: 17vw;
+    opacity: 0.5;
+}
+
+.cardText{
+    color: #ffaf46;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 15px;
+    opacity: 0.5;
+}
+
+.titleCard{
+    padding: 2vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #ffaf46;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 15px;
+}
+
+
+.footer{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid #ffaf46;
+    border-bottom: 2px solid #ffaf46;
+}
+
+.footerText{
+    font-size: 2vw;
+    color: #ffaf46;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.rotateImg{
+    transform: rotate(180deg);
+}
+.rotate{
+    transform: rotate(0deg);
+}

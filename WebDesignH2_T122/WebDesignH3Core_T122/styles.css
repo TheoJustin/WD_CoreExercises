@@ -1,0 +1,36 @@
+
+*{
+    margin: 0;
+}
+
+#chessTile{
+    width: 50%;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.board-grid{
+    width: 12.5%;
+    aspect-ratio: 1/1;
+}
+
+.green{
+    background-color: #769656;
+}
+
+.white{
+    background-color: #eeeed2;
+}
+
+
+canvas{
+    border:0;
+    background-color: rgb(59, 58, 58);
+    background-size: contain;
+    position: absolute;
+    z-index: -1;
+}
